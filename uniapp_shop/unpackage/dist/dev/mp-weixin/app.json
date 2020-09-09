@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/news/news",
+    "pages/member/member"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "xiayu商城",
+    "navigationBarBackgroundColor": "#b50e03",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#b50e03",
+    "color": "#ccc",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabBar/homeUnselect.png",
+        "selectedIconPath": "static/tabBar/homeSelect.png"
+      },
+      {
+        "text": "资讯",
+        "pagePath": "pages/news/news",
+        "iconPath": "static/tabBar/messageSelect.png",
+        "selectedIconPath": "static/tabBar/messageUnselect.png"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/tabBar/cartUnsele.png",
+        "selectedIconPath": "static/tabBar/cartSelect.png"
+      },
+      {
+        "text": "会员",
+        "pagePath": "pages/member/member",
+        "iconPath": "static/tabBar/memberUnselect.png",
+        "selectedIconPath": "static/tabBar/memberSelcet.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
